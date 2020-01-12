@@ -55,6 +55,7 @@ def reduce_to_total(source_array, starting_point)
     i += 1 
     starting_point += element 
   end 
+  total += starting_point
   total
 end 
 
