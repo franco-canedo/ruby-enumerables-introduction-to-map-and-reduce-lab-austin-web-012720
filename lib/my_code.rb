@@ -35,7 +35,9 @@ def map_to_double(source_array)
   new_array
 end 
 
-def 
+def map_to_square(source_array)
+  
+end 
 
 
 
