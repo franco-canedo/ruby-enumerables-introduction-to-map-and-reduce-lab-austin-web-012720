@@ -59,13 +59,15 @@ def reduce_to_total(source_array, starting_point)
         totalS += element
       end
       return totalS
+    else 
+       while i < source_array.length do
+        element = source_array[i]
+        i += 1 
+        total += element
+        end
+        return total
     end 
-    element = source_array[i]
-    i += 1 
-    starting_point += element 
-  
-  total += starting_point
-  total
+    
 end 
 
 def reduce_to_all_true(source_array)
